@@ -1,0 +1,10 @@
+const yesButton = document.getElementById("yesButton");
+const noButton = document.getElementById("noButton");
+
+yesButton.addEventListener("click", function () {
+    alert("Terima kasih sudah memilih Ya! 😁");
+});
+
+noButton.addEventListener("click", function () {
+    alert("Kamu memilih Tidak.");
+});
