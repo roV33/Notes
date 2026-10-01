@@ -6,5 +6,5 @@ yesButton.addEventListener("click", function () {
 });
 
 noButton.addEventListener("click", function () {
-    document.getElementById("jumpscare").style.display = "flex";
+    alert("NO BERHASIL DITEKAN!");
 });
