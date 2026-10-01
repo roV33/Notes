@@ -6,5 +6,5 @@ yesButton.addEventListener("click", function () {
 });
 
 noButton.addEventListener("click", function () {
-    alert("Kamu memilih Tidak.");
+    document.getElementById("jumpscare").style.display = "flex";
 });
